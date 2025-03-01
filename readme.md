@@ -1,6 +1,3 @@
-I'll help you create a professional and informative GitHub repository description, including a comprehensive README.md file that will help users understand and use your project.
-
-```markdown
 # GitHub Activity CLI
 
 A lightweight command-line interface tool built with PHP 8.4 that fetches and displays GitHub user activity in real-time. This tool allows developers to quickly check any GitHub user's recent activities directly from their terminal.
@@ -52,15 +49,15 @@ composer global require yourusername/github-activity
 ./bin/github-activity <username>
 
 # Example
-./bin/github-activity kamranahmedse
+./bin/github-activity arifhossen-dev
 ```
 
 ### Sample Output
 ```
-Recent activity for kamranahmedse:
-- Pushed 3 commits to kamranahmedse/developer-roadmap
-- Created branch "feature/new-roadmap" in kamranahmedse/developer-roadmap
-- Opened issue #123 in kamranahmedse/developer-roadmap
+Recent activity for arifhossen-dev:
+- Pushed 3 commits to arifhossen-dev/developer-roadmap
+- Created branch "feature/new-roadmap" in arifhossen-dev/developer-roadmap
+- Opened issue #123 in arifhossen-dev/developer-roadmap
 - Starred facebook/react
 ```
 
@@ -140,46 +137,5 @@ If you encounter any issues or have questions:
 
 ---
 
-Made with ❤️ by [Your Name]
-
-```
-
-This README provides:
-
-1. **Clear Introduction**: Explains what the tool does and its main purpose
-2. **Feature Highlights**: Lists all key features in an easy-to-scan format
-3. **Installation Instructions**: Step-by-step guide to get started
-4. **Usage Examples**: Clear examples with expected output
-5. **Technical Details**: Information about the implementation
-6. **Contributing Guidelines**: How others can contribute to the project
-7. **Future Plans**: Planned features and improvements
-8. **Professional Structure**: Well-organized sections with emojis for visual appeal
-9. **Support Information**: How to get help when needed
-10. **Visual Elements**: Suggested placeholders for demo GIF and star history
-
-For the repository settings, I recommend:
-
-**Repository Description (Short)**:
-```
-📊 A zero-dependency PHP CLI tool to fetch and display GitHub user activity in real-time. Built with PHP 8.4.
-```
-
-**Topics Tags**:
-```
-php cli github-api terminal-app developer-tools php84 activity-tracker command-line-tool github-events
-```
-
-**About Section (GitHub)**:
-- Website: [Your documentation site or blog]
-- Topics: PHP, CLI, GitHub API
-- Social Preview: Create a simple banner showing the tool in action
-
-Remember to:
-1. Add a LICENSE file (MIT recommended)
-2. Set up GitHub Actions for CI/CD
-3. Add a CONTRIBUTING.md file
-4. Create an issue template
-5. Add a pull request template
-
-Would you like me to provide any of these additional files or explain any section in more detail?
+Made with ❤️ by arifhossen.dev
 
