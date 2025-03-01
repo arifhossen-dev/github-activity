@@ -129,11 +129,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 If you encounter any issues or have questions:
 
 - Create an issue in the GitHub repository
-- Contact the maintainer at [your-email@example.com]
+- Contact the maintainer at [arifhossen.dev@gmail.com]
 
 ## 🌟 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/github-activity&type=Date)](https://star-history.com/#yourusername/github-activity&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=arifhossen-dev/github-activity&type=Date)](https://star-history.com/#arifhossen-dev/github-activity&Date)
 
 ---
 
