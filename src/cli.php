@@ -13,14 +13,16 @@ if ($argc !== 2) {
 
 $uaername = $argv[1];
 
-$activity = new GitHubActivity($uaername);
+try {
+    $activity = new GitHubActivity($uaername);
+    $dataArray = $activity->fetchActivity();
+    $formatedData = $activity->formatActivity(activities: $dataArray);
 
-$dataArray = $activity->fetchActivity();
-
-$formatedData = $activity->formatActivity(activities: $dataArray);
-
-
-echo "Recent activity for $username:\n\n";
-foreach ($formatedData as $item) {
-    echo "- $item\n";
+    echo "Recent activity for $username:\n\n";
+    foreach ($formatedData as $item) {
+        echo "- $item\n";
+    }
+} catch (Exception $e) {
+    echo "Unexpected error: " . $e->getMessage() . "\n";
+    exit(1);
 }

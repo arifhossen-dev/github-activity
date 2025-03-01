@@ -14,11 +14,6 @@ class GitHubActivity
         }
     }
 
-    public function getRecentActivity(): array
-    {
-        return ["username"=> $this->username];
-    }
-
     public function fetchActivity(): array
     {
         $url = "https://api.github.com/users/".$this->username."/events";
